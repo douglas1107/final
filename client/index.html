@@ -9,23 +9,39 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Task Manager App</h1>
+        <h1>Welcome to Our App</h1>
         <div class="row">
             <div class="col-md-6">
+                <h2 class="text-center">Popular Posts</h2>
                 <div class="post-container">
-                    <h2>Popular Posts</h2>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li>Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</li>
+                    <ul id="popularPostsList">
+                        <li>
+                            <div class="post-user">John Doe</div>
+                            <div class="post-title">Post Title 1</div>
+                            <div class="post-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        </li>
+                        <li>
+                            <div class="post-user">Jane Smith</div>
+                            <div class="post-title">Post Title 2</div>
+                            <div class="post-content">Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</div>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-6">
+                <h2 class="text-center">Trending Posts</h2>
                 <div class="post-container">
-                    <h2>Trending Posts</h2>
-                    <ul>
-                        <li>Nulla quis sem at nibh elementum imperdiet.</li>
-                        <li>Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</li>
+                    <ul id="trendingPostsList">
+                        <li>
+                            <div class="post-user">Alice Johnson</div>
+                            <div class="post-title">Post Title 3</div>
+                            <div class="post-content">Nulla quis sem at nibh elementum imperdiet.</div>
+                        </li>
+                        <li>
+                            <div class="post-user">Bob Anderson</div>
+                            <div class="post-title">Post Title 4</div>
+                            <div class="post-content">Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -38,4 +54,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
 
